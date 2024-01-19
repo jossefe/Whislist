@@ -1,0 +1,26 @@
+{
+  "name": "ejemplo",
+  "version": "1.0.0",
+  "description": "Ejepmlo de Clase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "lint": "eslint --fix src/**/*.{js,jsx}",
+    "format": "prettier --write \"*.{js,jsx,json,css}\""
+  },
+  "author": "youssef",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-react": "^7.33.2",
+    "parcel-bundler": "^1.12.5"
+  }
+}
